@@ -1,0 +1,26 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# oztest
+
+The goal of oztest is to provide some miscellaneous functions that I find useful!
+
+## Example usage
+
+```{r example}
+library(oztest)
+inspire_me("nick")
+```
